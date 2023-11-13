@@ -71,7 +71,7 @@ export const CategoryBox = styled.div`
     border: none;
 
     width: 100%;
-    height: -webkit-fill-available;
+    height: fit-content;
 
     padding: 0.75rem;
 
