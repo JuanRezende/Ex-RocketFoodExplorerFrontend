@@ -16,8 +16,8 @@ O usuário Admin pode criar, ler, atualizar e deletar um prato e também gerenci
 
 - [x] Usuário Administrador;
 - [x] Login e Registrar;
-- [x] Criar e atualizar pratos;
-- [x] Ver detalhes dos pratos criados
+- [x] Criar, atualizar e deletar pratos;
+- [x] Ver detalhes dos pratos criados;
 - [x] Responsividade (Web/Mobile)
 
 ---
