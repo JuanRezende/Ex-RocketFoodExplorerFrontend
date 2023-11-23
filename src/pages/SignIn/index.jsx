@@ -17,11 +17,12 @@ export function SignIn(){
 
   const { signIn } = useAuth();
 
-
   function handleSignIn(){
     if(!email || !password){
       return alert("Por favor, digite seu e-mail/senha para fazer o login!");
     }
+
+    alert("Por favor, aguarde por volta de 1 minuto ou mais, o backend está hospedado em um serviço gratuito e precisa desse tempo para inicializar!");
 
     signIn({ email, password});
     navigate('/');
