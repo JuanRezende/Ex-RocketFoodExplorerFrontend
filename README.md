@@ -16,8 +16,8 @@ O usuário Admin pode criar, ler, atualizar e deletar um prato e também gerenci
 
 - [x] Usuário Administrador;
 - [x] Login e Registrar;
-- [x] Criar e atualizar pratos;
-- [x] Ver detalhes dos pratos criados
+- [x] Criar, atualizar e deletar pratos;
+- [x] Ver detalhes dos pratos criados;
 - [x] Responsividade (Web/Mobile)
 
 ---
@@ -69,4 +69,7 @@ Local: http://localhost:XXXX/
 
 $ email: admin@explorer.com
 $ password: adminrocket
+
+# Ao tentar fazer o login na plataforma, aguarde por volta de 1 minuto ou mais,
+# o backend está hospedado em um serviço gratuito e contém esse periodo de inatividade!
 ```
