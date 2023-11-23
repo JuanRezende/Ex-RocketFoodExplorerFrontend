@@ -22,7 +22,7 @@ export function SignIn(){
       return alert("Por favor, digite seu e-mail/senha para fazer o login!");
     }
 
-    alert("Por favor, aguarde por volta de 1 minuto ou mais, o backend está hospedado em um serviço gratuito e precisa desse tempo para inicializar!");
+    alert("Por favor, aguarde alguns instantes, o servidor está hospedado em um serviço gratuito e precisa de um tempo para inicializar!");
 
     signIn({ email, password});
     navigate('/');
